@@ -1,0 +1,41 @@
+{
+  "name": "RepairPulse",
+  "short_name": "RepairPulse",
+  "description": "AI-assisted repair platform solving the Dashboard Illusion",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#2b63f5",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["business", "productivity"],
+  "shortcuts": [
+    {
+      "name": "New Repair",
+      "short_name": "New Repair",
+      "description": "Create a new repair request",
+      "url": "/customer/new",
+      "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "My Repairs",
+      "short_name": "My Repairs",
+      "description": "View your repair requests",
+      "url": "/customer/repairs",
+      "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}
