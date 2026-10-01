@@ -1,12 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
+  swcMinify: false,
   transpilePackages: ['lucide-react'],
   experimental: {
-    swcPlugins: [],
     forceSwcTransforms: true,
   },
-  swcMinify: true,
   webpack: (config, { isServer }) => {
     if (!isServer) {
       config.resolve.fallback = {

@@ -4,6 +4,7 @@
   "installCommand": "npm install --legacy-peer-deps",
   "framework": "nextjs",
   "regions": ["iad1"],
+  "nodeVersion": "20.x",
   "functions": {
     "src/app/api/**/*.ts": {
       "maxDuration": 30
